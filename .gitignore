@@ -1,0 +1,59 @@
+# Unity .gitignore
+# Exclude Unity cache, temporary files, builds, IDE metadata, and binaries
+
+# Unity temporary/cache folders
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset store tools
+[Aa]ssets/AssetStoreTools*
+
+# Visual Studio / VS Code / Rider cache & project files
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+.vs/
+.idea/
+.vscode/
+
+# Unity generated crash reports
+sysinfo.txt
+*.stackdump
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Zip releases, staging directories, and compressed archives
+*.zip
+*.tar.gz
+*.7z
+SmartParking3D_Final_Windows/
+.vsconfig
+*.slnx
